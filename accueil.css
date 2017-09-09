@@ -1,0 +1,31 @@
+/*## PAGE ACCUEIL##################################################################*/
+.accueil{ font-family: arial;text-shadow: 5px 5px 100px rgba(255,255,255,1);height: 100%; width: 100%;}
+.accueil{background-image: url('images/alice-page-accueil2.jpg'); background-size: cover; overflow: hidden;}
+nav{width: 100%;height: 50px; background-color: #eee; opacity: 0.5;display: flex;flex-direction: row; justify-content: space-around; font-size: 35px;}
+
+
+/*## FORMULAIRES ###################################################################################*/
+.formulaires{height: 550px;width: 98%; display: flex;flex-direction: row;justify-content: space-between; align-items: flex-end;}
+#inscription, #connexion{display: flex;flex-direction: column;}
+fieldset{border:none; font-weight: bold;}
+fieldset, input{margin: 10px}
+input{background-color: #ddd; opacity: 0.8;}
+input[type=button]{background-color: #ddd; opacity: 1;}
+
+/*# GESTION DES MODALES ########################################################################*/
+.modal-content, .modal-content1{display:block; width: 40%; position: relative; margin: -550px auto auto auto; padding: 40px 10px;z-index: 3; display: none;background-color: white; opacity: 0.8;}
+.modal-click, .modal-click1{cursor: pointer;}
+.modal-bg{background-color: #333; height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: 0.8; z-index: 2;display: none;}
+.modal-close, .modal-close1{color:red; position: absolute;top: 0; cursor: pointer; right: 8px;}
+.modal-content1{width: 30%; padding: 40px;}
+table{margin: auto;border-collapse:collapse;}
+th, td{ border: 1px solid black;padding: 8px 20px;}
+th{background-color: pink;}
+tr:nth-child(odd){background-color: pink;}
+
+
+/*## LES REGLES ####################################################################################*/
+.fleches{font-size: 40px; width:45px; height: 45px;background-color: #eee; display: inline-block; text-align: center;}
+.regles{line-height: 45px;width: 50%; height: auto;background-color: #ccc; margin: auto; margin-top: 10%; padding: 20px;}
+.space{height:35px; width: 200px;font-size: 18px;}
+/*## TOP TEN ########################################################################################*/
